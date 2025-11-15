@@ -1,0 +1,19 @@
+/* style.css - small, clean stylesheet */
+body{
+  background: linear-gradient(135deg, #f6f9fc, #e9f3ff);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.form-control.is-invalid {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.1rem rgba(220,53,69,.1);
+}
+
+/* make the small error messages slightly bolder */
+small.text-danger {
+  font-weight: 600;
+}
